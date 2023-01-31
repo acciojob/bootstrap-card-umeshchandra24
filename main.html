@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 
 <html>
 
@@ -13,8 +13,8 @@
 <body>
 	<h1>Welcome to Sync5</h1>
 	<div class="card col-12">
-		<div class="card-header">
-			<h3>New Features</h3>
+		<div>
+			<h3 class="card-header">New Features</h3>
 		</div>
 		<div class="card-body">
 			<h2 class="card-tittle">Mobile and Tablet support</h2>
@@ -23,7 +23,9 @@
 		</div>
 	</div>
 	
-		<div class="card-group col-5 my-5">
+
+	<div class="card-group">
+		<div class="card-deck col-3 my-5">
 			<div class="card bg-danger">
 				<div class="card-header">
 					<h3>Alert</h3>
@@ -33,8 +35,8 @@
 					<span>Node 5 (east-us) is offline for last 12 days.</span>
 				</div>
 			</div>
-			
-			<div class="card col-5">
+		</div>	
+		<div class="card col-2 my-5">
 				<div class="card-header">
 					<img src="https://tse3.mm.bing.net/th?id=OIP.noMBeYstQbWVmRNL37QXZQHaE8&pid=Api&P=0" alt="email-image" class="card-img-top col-3" >
 				</div>
@@ -45,13 +47,69 @@
 						<span class="text-muted">Last updated 12 mins ago</span>
 					
 				</div>
-			</div>
 		</div>
-	
+		
+		
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
+</html> -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+<h1>Welcome to Sync5</h1>
+<div class="card">
+  <div class="card-header">New Features</div>
+  <div class="card-body">
+    <h5 class="card-title">Mobile and Tablet support</h5>
+    <p class="card-text">With this new update you will be able to sync your work across large number of platforms.</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+<div class="card-deck mt-5">
+	<div class="card text-white bg-danger" style="max-width: 18rem;height:350px">
+  <div class="card-header">Alert</div>
+  <div class="card-body">
+    <h5 class="card-title">Node Dead</h5>
+    <p class="card-text">Node 5 (east-us) is offline for last 12 days.</p>
+  </div>
+</div>
+	<div class="card" style="max-width: 18rem;height:350px">
+    <img class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">President under Pressure</h5>
+      <p class="card-text">The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 12 mins ago</small>
+    </div>
+  </div>
+</div>
+
+	
+</body>
 </html>
